@@ -1,0 +1,17 @@
+{
+  "pages": 10,
+  "checks": {
+    "10_slides": true,
+    "16_9": true,
+    "rubric_covered": true,
+    "ten_experiments": true,
+    "test_scores_match": true,
+    "synthetic_explicit": true,
+    "no_code_dump": true,
+    "no_overflow": true,
+    "bookmarks": true
+  },
+  "overflow": [],
+  "layout_errors": [],
+  "pass": true
+}

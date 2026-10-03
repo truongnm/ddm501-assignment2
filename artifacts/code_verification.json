@@ -1,0 +1,19 @@
+{
+  "pytest_summary": "8 passed in 3.11s",
+  "ruff_summary": "All checks passed; Ruff format passed",
+  "compile_summary": "Compiled 6 Python files, including DAG definition",
+  "checks": {
+    "pytest": {
+      "returncode": 0,
+      "stdout": "........                                                                 [100%]\n8 passed in 3.11s"
+    },
+    "ruff": {
+      "returncode": 0,
+      "stdout": "All checks passed!"
+    },
+    "format": {
+      "returncode": 0,
+      "stdout": "8 files already formatted"
+    }
+  }
+}

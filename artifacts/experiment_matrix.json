@@ -1,0 +1,71 @@
+[
+  {
+    "id": "E01",
+    "algorithm": "mean28",
+    "features": "full"
+  },
+  {
+    "id": "E02",
+    "algorithm": "seasonal",
+    "features": "full"
+  },
+  {
+    "id": "E03",
+    "algorithm": "seasonal_promo",
+    "features": "full"
+  },
+  {
+    "id": "E04",
+    "algorithm": "ridge",
+    "alpha": 10.0,
+    "features": "full"
+  },
+  {
+    "id": "E05",
+    "algorithm": "lightgbm",
+    "objective": "poisson",
+    "num_leaves": 31,
+    "learning_rate": 0.05,
+    "features": "full"
+  },
+  {
+    "id": "E06",
+    "algorithm": "lightgbm",
+    "objective": "poisson",
+    "num_leaves": 15,
+    "learning_rate": 0.05,
+    "features": "full"
+  },
+  {
+    "id": "E07",
+    "algorithm": "lightgbm",
+    "objective": "poisson",
+    "num_leaves": 63,
+    "learning_rate": 0.05,
+    "features": "full"
+  },
+  {
+    "id": "E08",
+    "algorithm": "lightgbm",
+    "objective": "poisson",
+    "num_leaves": 31,
+    "learning_rate": 0.1,
+    "features": "full"
+  },
+  {
+    "id": "E09",
+    "algorithm": "lightgbm",
+    "objective": "regression_l1",
+    "num_leaves": 31,
+    "learning_rate": 0.05,
+    "features": "full"
+  },
+  {
+    "id": "E10",
+    "algorithm": "lightgbm",
+    "objective": "poisson",
+    "num_leaves": 31,
+    "learning_rate": 0.05,
+    "features": "no_promo"
+  }
+]

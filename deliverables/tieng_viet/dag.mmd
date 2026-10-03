@@ -1,0 +1,11 @@
+flowchart LR
+  subgraph Daily[Daily operational design]
+    ingest --> validate --> features --> predict --> forecast_gate --> draft_orders --> publish
+    publish --> technical_monitor
+  end
+  subgraph Weekly[Weekly candidate design]
+    snapshot --> split --> train_cv --> select --> locked_evaluate --> stage_review
+  end
+  subgraph Demo[Implemented demo DAG definition]
+    prepare_demo --> search_demo --> evaluate_demo --> register_demo_only
+  end

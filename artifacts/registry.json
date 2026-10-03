@@ -1,0 +1,8 @@
+{
+  "model_name": "ddm501-retail-demand-demo",
+  "version": "1",
+  "alias": "demo_candidate",
+  "model_uri": "models:/m-6e32a7cc76594bc2b8f588a9795e02fb",
+  "run_id": "623f491ab4844d4d86c066d21a8bd8c4",
+  "production_promoted": false
+}

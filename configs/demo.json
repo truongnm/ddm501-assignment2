@@ -1,0 +1,20 @@
+{
+  "seed": 501,
+  "start_date": "2024-01-01",
+  "days": 548,
+  "stores": 4,
+  "skus": 12,
+  "horizon": 7,
+  "origin_stride": 7,
+  "n_jobs": 2,
+  "n_estimators": 200,
+  "tracking_uri": "sqlite:///artifacts/mlflow.db",
+  "experiment_name": "DDM501-retail-synthetic-v1",
+  "registered_model_name": "ddm501-retail-demand-demo",
+  "gates": {
+    "wape_max": 25.0,
+    "relative_improvement_min": 10.0,
+    "abs_bias_max": 5.0,
+    "group_degradation_pp_max": 2.0
+  }
+}

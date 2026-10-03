@@ -1,0 +1,14 @@
+flowchart LR
+  source[POS / Inventory / Published plans] --> ingest[Ingest / Raw manifest]
+  ingest --> validate[Validation]
+  validate --> features[Purged split / Train-fitted preprocessing / Point-in-time features]
+  validate -. fail .-> quarantine[Quarantine / Alert]
+  features --> train[10 configurations / temporal CV]
+  train --> evaluate[Lock selection / Test / Model gates]
+  evaluate --> registry[Registry / Staging / Ops gates / Human review]
+  registry --> predict[Daily batch with pinned model]
+  features --> predict
+  predict --> order[Forecast gate / Draft orders]
+  order --> publish[Atomic publish / API / Approval / ERP]
+  publish --> monitor[Telemetry / Matured labels]
+  monitor -. investigation .-> train

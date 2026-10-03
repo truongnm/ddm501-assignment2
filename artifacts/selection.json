@@ -1,0 +1,132 @@
+{
+  "selected_id": "E05",
+  "baseline_id": "E03",
+  "status": "validation_pass",
+  "selected_spec": {
+    "id": "E05",
+    "algorithm": "lightgbm",
+    "objective": "poisson",
+    "num_leaves": 31,
+    "learning_rate": 0.05,
+    "features": "full"
+  },
+  "baseline_spec": {
+    "id": "E03",
+    "algorithm": "seasonal_promo",
+    "features": "full"
+  },
+  "gates": {
+    "E01": {
+      "pass": false,
+      "checks": {
+        "wape": true,
+        "improvement": false,
+        "bias": true,
+        "groups": false
+      },
+      "relative_improvement": -19.88173485576989,
+      "worst_group_delta_pp": 4.871068036524665
+    },
+    "E02": {
+      "pass": false,
+      "checks": {
+        "wape": true,
+        "improvement": false,
+        "bias": true,
+        "groups": false
+      },
+      "relative_improvement": -15.636124896116998,
+      "worst_group_delta_pp": 3.773297362615395
+    },
+    "E03": {
+      "pass": false,
+      "checks": {
+        "wape": true,
+        "improvement": false,
+        "bias": true,
+        "groups": true
+      },
+      "relative_improvement": 0.0,
+      "worst_group_delta_pp": 0.0
+    },
+    "E04": {
+      "pass": true,
+      "checks": {
+        "wape": true,
+        "improvement": true,
+        "bias": true,
+        "groups": true
+      },
+      "relative_improvement": 18.036906127688507,
+      "worst_group_delta_pp": -2.289056032297145
+    },
+    "E05": {
+      "pass": true,
+      "checks": {
+        "wape": true,
+        "improvement": true,
+        "bias": true,
+        "groups": true
+      },
+      "relative_improvement": 19.642400085817513,
+      "worst_group_delta_pp": -2.7158380119352685
+    },
+    "E06": {
+      "pass": true,
+      "checks": {
+        "wape": true,
+        "improvement": true,
+        "bias": true,
+        "groups": true
+      },
+      "relative_improvement": 19.490235079966936,
+      "worst_group_delta_pp": -2.689310513270927
+    },
+    "E07": {
+      "pass": true,
+      "checks": {
+        "wape": true,
+        "improvement": true,
+        "bias": true,
+        "groups": true
+      },
+      "relative_improvement": 19.38254308548869,
+      "worst_group_delta_pp": -2.6981926814069137
+    },
+    "E08": {
+      "pass": true,
+      "checks": {
+        "wape": true,
+        "improvement": true,
+        "bias": true,
+        "groups": true
+      },
+      "relative_improvement": 19.589002750300633,
+      "worst_group_delta_pp": -2.707151435762638
+    },
+    "E09": {
+      "pass": true,
+      "checks": {
+        "wape": true,
+        "improvement": true,
+        "bias": true,
+        "groups": true
+      },
+      "relative_improvement": 18.898095114107466,
+      "worst_group_delta_pp": -2.597023562144855
+    },
+    "E10": {
+      "pass": false,
+      "checks": {
+        "wape": true,
+        "improvement": false,
+        "bias": true,
+        "groups": true
+      },
+      "relative_improvement": -5.1779600561223535,
+      "worst_group_delta_pp": 1.7598124529413468
+    }
+  },
+  "test_used_for_selection": false,
+  "tie_break": "minimum pooled validation WAPE, then fit time; no significance claim"
+}

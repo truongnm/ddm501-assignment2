@@ -1,0 +1,19 @@
+[
+  "store_id",
+  "sku_id",
+  "category",
+  "target_dow",
+  "horizon",
+  "month",
+  "lag_1",
+  "lag_7",
+  "lag_14",
+  "lag_28",
+  "mean_7",
+  "mean_28",
+  "seasonal_mean",
+  "available_fraction_28",
+  "origin_available",
+  "promo",
+  "planned_price"
+]

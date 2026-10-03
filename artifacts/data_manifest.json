@@ -1,0 +1,14 @@
+{
+  "evidence_type": "synthetic",
+  "generator": "gamma_poisson_retail_v1",
+  "seed": 501,
+  "raw_rows": 26304,
+  "example_rows": 23520,
+  "series": 48,
+  "date_min": "2024-01-01",
+  "date_max": "2025-07-01",
+  "raw_sha256": "b556ee71c45f8b93cfe1f1b06c1cf5379989dad9f3187fc7c04e582f2944478f",
+  "feature_sha256": "28f570ba68dff1dc38a8a739b2eb387d1e3516e2345310acf975f6528f06302e",
+  "availability_fraction": 0.9585994525547445,
+  "latent_demand_used_for_training": false
+}

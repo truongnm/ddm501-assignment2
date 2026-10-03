@@ -1,0 +1,59 @@
+{
+  "evidence_type": "synthetic",
+  "selected_id": "E05",
+  "baseline_id": "E03",
+  "scores": {
+    "E05": {
+      "wape": 15.837498364526965,
+      "bias": -2.55445772976184,
+      "mae": 6.34311382102845,
+      "rmse": 8.239481346283382,
+      "mase": 0.5908674309389944,
+      "mase_valid_series": 48,
+      "mase_excluded_series": 0,
+      "fit_seconds": 0.3718933000054676,
+      "batch_p95_ms": 34.851500000513624,
+      "n_test": 3884,
+      "coverage": 0.9632936507936508
+    },
+    "E03": {
+      "wape": 20.15940632595483,
+      "bias": 6.737779699270838,
+      "mae": 8.074091371419174,
+      "rmse": 10.458809600572772,
+      "mase": 0.7495127008079834,
+      "mase_valid_series": 48,
+      "mase_excluded_series": 0,
+      "fit_seconds": 0.0014021000024513341,
+      "batch_p95_ms": 0.10309999925084412,
+      "n_test": 3884,
+      "coverage": 0.9632936507936508
+    }
+  },
+  "test_gate": {
+    "pass": true,
+    "checks": {
+      "wape": true,
+      "improvement": true,
+      "bias": true,
+      "groups": true
+    },
+    "relative_improvement": 21.4386668513323,
+    "worst_group_delta_pp": -3.3716184320745306
+  },
+  "train_label_max": "2025-03-30",
+  "test_origin_min": "2025-04-06",
+  "test_origin_max": "2025-06-22",
+  "eligible_test_rows": 3884,
+  "all_test_rows": 4032,
+  "uncertainty": {
+    "difference_wape_pp_95ci": [
+      -4.739317907868327,
+      -3.8507931721623563
+    ],
+    "blocks": 12,
+    "replicates": 2000,
+    "scope": "conditional on synthetic series; not business causal evidence"
+  },
+  "production_release_authorized": false
+}
